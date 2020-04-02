@@ -15,21 +15,36 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+nav{
+    border: 1px solid black;
+    border-bottom: none;
+    border-top: none;
+    padding: 10px;
+    position: absolute;
+    height: 75%;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start
+}
 section{
-    padding-left: 4%;
+    position: relative;
+    padding-left: 20%;
+    height: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 200px);
     align-items: center;
-    justify-content: center;
+    
 }
 article{
-    height: 90%;
+    height: 70%;
     width: 80%;
     border: 1px solid chocolate;
     display: grid;
     grid-template-rows: 3fr 1fr;
     grid-template-columns: 100%;
+    justify-content: space-between;
 }
 video{
     height: 100%;
