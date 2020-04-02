@@ -21,43 +21,49 @@ nav{
     border-top: none;
     padding: 10px;
     position: absolute;
-    height: 75%;
+    height: 76vh;
     width: 15vw;
     display: flex;
     flex-direction: column;
-    justify-content: start
+    justify-content: start;
+}
+nav>a{
+    text-decoration: none;
+    color: black;
+    height: 5vh;
 }
 section{
     position: relative;
     padding-left: 20%;
-    height: 80%;
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 200px);
-    align-items: center;
-    
+    grid-template-rows: repeat(3, 2fr);
+    align-items: center; 
 }
 article{
-    height: 70%;
-    width: 80%;
+    height: 20vh;
+    width: 13vw;
     border: 1px solid chocolate;
+}
+article>a{
+    height: 20vh;
     display: grid;
-    grid-template-rows: 3fr 1fr;
-    grid-template-columns: 100%;
-    justify-content: space-between;
+    grid-template-rows: 4fr 1fr;
+    align-items: end;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;  
 }
 video{
-    height: 100%;
+    display: grid;
+    align-self: start;
+    height: auto;
     width: 100%;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
 footer{
-    height: 10%;
+    height: 9vh;
     background-color: darkgray;
     font-weight: bold;
     display: grid;
